@@ -1,0 +1,36 @@
+*{ 
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font: normal bold 16px/normal tahome;
+}
+article{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(21, 192, 235);
+    border-radius: 10px;
+    margin: 50px auto 20px;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgb(240, 145, 219);
+}
+
+article h3{
+    padding: 10px;
+    color: rgb(178, 238, 176);
+}
+
+article.count{
+    padding: 5px;
+}
+
+article #timer{
+    padding: 5px;
+    color: rgb(245, 142, 214);
+    background-color: rgb(86, 248, 159);
+    border-radius: 2px;
+}
